@@ -197,7 +197,7 @@ Par exemple, vous pourriez parfaitement demander:
 
 # Création de la base de données "Infrastructure"
 
-Ce script SQL permet de créer la base de données "Infrastructure" sur PostgreSQL. (Disponible  [**ICI**](https://github.com/0xGuillaume/ProjetAnnuel23/blob/10-new-dataset/containers/sql/db_tables.sql)) Cette base de données est destinée à stocker des informations concernant les serveurs, les conteneurs et les bases de données utilisés dans un environnement d'infrastructure.
+Ce script SQL permet de créer la base de données "Infrastructure" sur PostgreSQL. Cette base de données est destinée à stocker des informations concernant les serveurs, les conteneurs et les bases de données utilisés dans un environnement d'infrastructure.
 Il y aura donc 3 tables, faites de cette façon :
 
 <br/><br/>
@@ -269,7 +269,7 @@ Cette table stocke des informations sur les bases de données utilisées dans l'
 ## Génération des valeurs aléatoires
 
 Dans ce script, nous avons créer des fonctions afin de générer des valeurs aléatoires.
-Ces valeurs sont utilisées pour remplir les 3 tables de la base de données "infrastructure" créer précédemment **[ICI](https://github.com/0xGuillaume/ProjetAnnuel23/wiki/Cr%C3%A9ation-de-la-base-de-donn%C3%A9e)**
+Ces valeurs sont utilisées pour remplir les 3 tables de la base de données "infrastructure" créer précédemment 
 <br>
 Les fonctions garantissent la diversité et l'aléatoire des données insérées, elles ont aussi été créer de façon a être cohérentes.
 
@@ -355,7 +355,7 @@ Cette liste contiendra toutes les requêtes d'insertion générées pour les tab
 
 ## Concaténation et écriture du contenu
 
-Une fois que toutes les requêtes d'insertion ont été générées, le script ouvre le fichier "db_tables.sql" en lecture et lit son contenu. **[ICI](https://github.com/0xGuillaume/ProjetAnnuel23/wiki/Cr%C3%A9ation-de-la-base-de-donn%C3%A9e)**
+Une fois que toutes les requêtes d'insertion ont été générées, le script ouvre le fichier "db_tables.sql" en lecture et lit son contenu. 
 <br> Ensuite, les requêtes d'insertion sont concaténées avec le contenu du fichier pour former le script d'initialisation complet.
 
 ```python
